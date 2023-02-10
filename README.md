@@ -57,7 +57,7 @@ LOOK AT THE TESTS IN THE SPEC FOLDER!! Right now, all tests will fail. Your goal
 
 # **1. Arrays, Hashes, and Enumerables**
 
-Check the[ Ruby 2.x documentation](http://ruby-doc.org) on Array, Hash and Enumerable as they could help tremendously with these exercises!  
+Check the[ Ruby 3.0.x documentation](https://ruby-doc.org/3.0.5/) on Array, Hash and Enumerable as they could help tremendously with these exercises!  
 
 
 
