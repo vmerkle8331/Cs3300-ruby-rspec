@@ -1,28 +1,32 @@
+## **Overview**
+
+The repo for this exploration follows a fairly standard Ruby convention for codebases: **the code files are stored in lib/ and the test files are stored in spec/**. (We use the RSpec unit-testing framework)
+
+1. Fork this code
+2. Run your current docker container
+3. Clone this code to your docker environment
+4. Commit and push work Frequently
+
 # **Ruby Intro**
 
-This homework gives some basic practice in Ruby as well as getting you accustomed to making testing a regular part of your workflow.
-
-Get started by reading Chapter 3 and trying out some of the tutorials listed at the end of this assignment. 
-
-Step one: “learn” Ruby- easy right? No.  Jump in as soon as possible and start trying out Ruby.
+This guided exploration gives some basic practice in Ruby as well as getting you accustomed to making testing a regular part of your workflow. Review lectures associated with chapter 2 and chapter 8.1-8.2.
 
 
 ## **Learning Goals**
 
-After completing this assignment, you will know how to:
+* Write code that uses basic constructs in the Ruby language, including methods and arguments, conditionals, string and array manipulation, regular expressions, and basic object-oriented programming mechanisms.
+* Comment code, take notes and find resources to help you prepare for upcoming tasks
+* Understand the Ruby project conventions for where code files and test files are located in a project's directory hierarchy
+* Run individual tests or suites of tests using the RSpec unit testing tool
+* Understand the basic syntax of RSpec unit tests
 
-*   Write code that uses basic constructs in the Ruby language, including methods and arguments, conditionals, string and array manipulation, regular expressions, and basic object-oriented programming mechanisms
-*   Understand the Ruby project conventions for where code files and test files are located in a project's directory hierarchy
-*   Run individual tests or suites of tests using the RSpec unit testing tool
-*   Understand the basic syntax of RSpec unit tests and write your own
-
-
-
-## **Commit Work Frequently**
-
-Run your current docker container and fork this code. Then clone this code to your docker environment. 
 
 ## SECTION 1: RUBY BASICS
+
+“Learn” Ruby- easy right? No.  Jump in as soon as possible and start trying out Ruby. 
+Find tutorials to help you with the following concepts before writing code.
+Arrays
+
 
 ------------------------------------------------------------------------------------------------------------
 
