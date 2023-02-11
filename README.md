@@ -43,7 +43,9 @@ $ rspec spec/ for all parts 1 through 3 or rspec spec/part#_spec.rb to run 1 at 
 
 When the above completes successfully you'll have RSpec installed and can run rspec from the command line to test your code. 
 
-LOOK AT THE TESTS IN THE SPEC FOLDER!! Right now, all tests will fail. Your goal is to make all tests pass once you complete the code for each part in ruby_intro.rb file. Check the[ Ruby 3.0.x documentation](http://ruby-doc.org) and RSpec documentation](http://rspec.info) if you haven't already.  
+LOOK AT THE TESTS IN THE SPEC FOLDER!! Right now, all tests will fail. Your goal is to make all tests pass once you complete the code for each part in ruby_intro.rb file. Ad comments to your ruby code as you complete each test case.
+
+*    Check the[ Ruby 3.0.x documentation](http://ruby-doc.org) and RSpec documentation](http://rspec.info) if you haven't already.  
 
 You SHOULD do your own testing. Test each of the 3 parts separately, or together. The files spec/part[123]_spec.rb contain RSpec tests for each of the three parts. For example, to test your answers to Part 1, say rspec ./spec/part1_spec.rb. rspec with no arguments runs the tests in all the files spec/*_spec.rb. You will notice you can run the command with -e to run a certain test. For example in part 2: rspec -e '#starts_with_consonant?' spec/part2_spec.rb
 
