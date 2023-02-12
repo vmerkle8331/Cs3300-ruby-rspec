@@ -3,9 +3,6 @@
 require_relative '../lib/ruby_intro'
 describe 'Ruby intro part 3' do
   describe 'BookInStock' do
-    it 'should be defined' do
-      expect { BookInStock }.not_to raise_error
-    end
   
     describe 'getters and setters' do
       before(:each)  { @book = BookInStock.new('isbn1', 33.8) }
