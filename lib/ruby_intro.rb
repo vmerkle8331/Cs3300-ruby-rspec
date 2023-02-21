@@ -26,10 +26,12 @@ def max_2_sum arr
 end
 
 def sum_to_n? arr, n
+
+  #combination finds the sum for every pair numbers here I have it then checking if it equals n
   x = arr.combination(2).find { |x, y| x + y == n }
-  if x
+  if x #if it equals n it throws true
     return true
-  else
+  else #otherwise throws false
     return false
   end
 end
@@ -41,7 +43,8 @@ def hello(name)
 end
 
 def starts_with_consonant? s
-  if /^[^AEIOUaeiou\W]/i.match(s) == nil
+  # ^ indicates starting, \W is nonletters, then the list of vowels is saying other than this
+  if /^[^AEIOUaeiou\W]/i.match(s) == nil 
     return false
   else
     return true
@@ -55,23 +58,21 @@ end
 # Part 3
 
 class BookInStock
+  #takes isbn
   attr_reader :isbn
-
+  #takes price
   attr_accessor :price
   
   def initialize(isbn, price)
-  
-  raise ArgumentError if isbn.empty? || price <= 0
-  
-  @isbn = isbn
-  
-  @price = Float(price)
-  
+    #if no isbn then price equals 0
+    raise ArgumentError if isbn.empty? || price <= 0
+    #assigning variables
+    @isbn = isbn
+    @price = Float(price)
   end
   
+  #changing price from number to string so can have $ and deciaml
   def price_as_string
-  
-  format("$%.2f", @price)
-  
+    format("$%.2f", @price)
   end
 end
